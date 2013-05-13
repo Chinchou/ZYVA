@@ -1,0 +1,17 @@
+Main Idea:  To have the program ("ZYVA") switch easily between French, Spanish, Italian, and German modes.
+
+New features for language implementation:
+
+1) A menu or selection process presented to the user to specify which language the program should use.  This menu will also be available during normal use of the program so that a user can switch languages mid-usage.  Changing the language will involve changing the button set to display/function with the special characters needed for each language and will change the language of the text used in the program.
+
+2) Making the buttons respond to the use of the SHIFT key.  SHIFT will cause the buttons to display and input capitalized characters.
+
+Additional features for ease of usability:
+
+1) An "Undo" feature
+
+2) Make sure that clicking the buttons for special characters does not change the focus of the window (i.e.: eliminate the extra click required to keep typing after pressing a button)
+
+3) A right-click menu for cut, copy, and paste functions.
+
+4) Making the window resizable and adding a "full screen" feature.
