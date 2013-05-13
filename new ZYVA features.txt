@@ -1,0 +1,35 @@
+Things that could happen to ZYVA:
+
+-could go to several languages
+	-select language from drop down over buttons?
+	-change language = switch button set, change
+	main title of window
+
+-right click menu for cut/copy/paste
+	-this would have to change languages as well...
+
+-undo feature
+	-being able to undo typos, both typed and insterted
+	by button
+
+-host it somewhere online or make it an online app
+	-tricky....
+	-still can't find elusive java online thing, and had 
+	problems with that last time
+
+-make the background better x)
+	-harder than could be believed
+	-changable background?
+
+-make the window scalable w/ a full-screen mode
+	-math :\
+
+-add an email-to feature, email directly from program?
+	-invoke system default app?
+		-this would be tricky to do for all OS varients
+
+-make sure clicking buttons doesn't change the focus
+
+-having SHIFT actually change the letters to uppercase versions,
+also change the buttons?
+
