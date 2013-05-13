@@ -1,0 +1,4 @@
+TODO:
+
+-separate images according to language by folder
+	-program-wide images should have their own folder
