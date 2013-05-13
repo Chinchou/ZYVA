@@ -2,3 +2,8 @@ TODO:
 
 -separate images according to language by folder
 	-program-wide images should have their own folder
+
+-create list of new language characters by language
+
+-either start creating new images for buttons or change text displayed on buttons--which will be easier to switch?
+Find out.
