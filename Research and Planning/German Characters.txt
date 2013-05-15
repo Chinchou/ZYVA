@@ -1,0 +1,14 @@
+note: characters are unordered
+
+
+U+00E4	ä
+U+00F6	ö
+U+00FC	ü
+U+00DF	ß
+U+20AC   €
+U+00AB	«
+U+00BB	»
+U+201A   ‚
+U+2018   ‘
+U+201E   „
+U+201C   “

@@ -1,0 +1,23 @@
+(note: unordered)
+
+U+00E0	à
+U+00E8	è
+U+00E9	é
+U+00EC	ì
+U+00F2	ò
+U+00F3	ó
+U+00F9	ù
+U+20AC   €
+U+00AB	«
+U+00BB	»
+
+U+00C0	À
+U+00C8	È
+U+00C9	É
+U+00CC	Ì
+U+00D2	Ò
+U+00D3	Ó
+U+00D9	Ù
+U+20AC   €
+U+00AB	«
+U+00BB	»
