@@ -1,34 +1,34 @@
-U+00E1	á
-U+00E9	é
-U+00ED	í
-U+00F3	ó
+\u00E1	á
+\u00E9	é
+\u00ED	í
+\u00F3	ó
 
-U+00FA	ú
-U+00F1	ñ
-U+00FC	ü
-U+00E7	ç
+\u00FA	ú
+\u00F1	ñ
+\u00FC	ü
+\u00E7	ç
 
-U+20AC   €
-U+00BF	¿
-U+00A1	¡
-U+00AB	«
-U+00BB	»
-
-
+\u20AC   €
+\u00BF	¿
+\u00A1	¡
+\u00AB	«
+\u00BB	»
 
 
-U+00C1	Á
-U+00C9	É
-U+00CD	Í
-U+00D3	Ó
 
-U+00DA	Ú
-U+00D1	Ñ
-U+00DC	Ü
-U+00C7	Ç
 
-U+20AC   €
-U+00BF	¿
-U+00A1	¡
-U+00AB	«
-U+00BB	»
+\u00C1	Á
+\u00C9	É
+\u00CD	Í
+\u00D3	Ó
+
+\u00DA	Ú
+\u00D1	Ñ
+\u00DC	Ü
+\u00C7	Ç
+
+\u20AC   €
+\u00BF	¿
+\u00A1	¡
+\u00AB	«
+\u00BB	»
