@@ -1,13 +1,13 @@
-(note: unordered)
-
 \u00E0	à
 \u00E8	è
 \u00E9	é
 \u00EC	ì
+
 \u00F2	ò
 \u00F3	ó
 \u00F9	ù
 \u20AC   €
+
 \u00AB	«
 \u00BB	»
 

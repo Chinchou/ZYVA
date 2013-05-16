@@ -1,17 +1,27 @@
-note: characters are unordered
-
-
 \u00E4	ä
 \u00F6	ö
 \u00FC	ü
 \u00DF	ß
-\u20AC   €
-\u00AB	«
-\u00BB	»
-\u201A   ‚
+
 \u2018   ‘
-\u201E   „
+\u201A   ‚
 \u201C   “
+\u201E   „
+
+
+\u20AC   €
+
+\u00AB	«
+
+\u00BB	»
+
+
+
+
+
+
+
+
 
 
 
