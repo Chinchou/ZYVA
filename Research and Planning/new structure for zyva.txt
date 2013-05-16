@@ -1,0 +1,15 @@
+New structure for ZYVA:
+
+Main class: creates the program.
+
+Big class: the ZYVA class, which will contain the methods for
+setting up the program.
+
+Language classes:  a class per language, with either french
+or the language last used being the default choice.  program
+will decide which class to use (post initial open) via user input.
+Will it make things easier to have an interface for the languages?
+
+Possibility: a separate utility class containing the array(lists) of
+characters.  these could also go into the language classes 
+themselves.
