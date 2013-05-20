@@ -8,6 +8,10 @@
 \u201C   “
 \u201E   „
 
+//try for o with a slash (/) through it
+
+//oe and ae together should be here
+
 
 \u20AC   €
 

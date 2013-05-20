@@ -1,3 +1,9 @@
 List of unicode character codes w/ corresponding UTF-8:
 
 http://www.utf8-chartable.de/
+
+Switching between GUIs:
+
+http://www.java-forums.org/awt-swing/42884-linking-multiple-guis.html
+
+http://www.coderanch.com/t/435945/GUI/java/navigate-multiple-GUI-classes

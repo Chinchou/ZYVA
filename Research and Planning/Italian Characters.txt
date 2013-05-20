@@ -1,12 +1,14 @@
-\u00E0	à
-\u00E8	è
-\u00E9	é
-\u00EC	ì
+\u00E0	à (rarer)
+\u00E8	è (most common, = est)
+\u00E9	é (more common)
+\u00EC	ì (more common)
+//need other i.  (look up frequency)
 
-\u00F2	ò
-\u00F3	ó
-\u00F9	ù
-\u20AC   €
+\u00F2	ò (more common, shows future tense)
+\u00F3	ó (either very rare or nonexistent)
+\u00F9	ù (somewhat common)
+//need other u as well (either somewhat common or rare)
+\u20AC    €
 
 \u00AB	«
 \u00BB	»
