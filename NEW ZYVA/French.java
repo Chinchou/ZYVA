@@ -13,12 +13,35 @@ import javax.swing.JFileChooser;
 import java.io.*;
 import java.util.HashSet;
 import java.awt.Color;
+import javax.swing.*;
 
 
 
-public class French extends javax.swing.JFrame {
+public class French extends javax.swing.JFrame implements Language {
     
     public int x;  //tester for pressing buttons, change this to individual button codes eventually
+    public javax.swing.JButton a1;
+    public javax.swing.JButton a2;
+    public javax.swing.JButton at;
+    public javax.swing.JButton cd;
+    public javax.swing.JLabel directions;
+    public javax.swing.JButton e1;
+    public javax.swing.JButton e2;
+    public javax.swing.JButton e3;
+    public javax.swing.JButton et;
+    public javax.swing.JButton exportbutt;
+    public javax.swing.JButton ic;
+    public javax.swing.JButton it;
+    public javax.swing.JScrollPane jScrollPane1;
+    public javax.swing.JLabel logo;
+    public javax.swing.JButton lq;
+    public javax.swing.JButton oc;
+    public javax.swing.JButton oe;
+    public javax.swing.JButton rq;
+    public javax.swing.JTextArea textarea;
+    public javax.swing.JButton u1;
+    public javax.swing.JButton u2;
+    public javax.swing.JButton ut;
     
 
 
@@ -35,8 +58,8 @@ public class French extends javax.swing.JFrame {
         
         //zyva logo.  create logo for each lang, specifying the lang?  add this in to previously
         //mentioned switcher method?
-        ImageIcon frenchIcon = new javax.swing.ImageIcon(getClass().getResource("Images/ZYVAlogoproto.png"))); // NOI18N
-        frenchIcon.setText("jLabel1");
+        ImageIcon frenchIcon = new javax.swing.ImageIcon(getClass().getResource("Images/ZYVAlogoproto.png")); // NOI18N
+        //frenchIcon.setText("jLabel1");
 
         //store whether or not last lang used (how to get this to be permanent between reboots
         //of the program?)
@@ -46,31 +69,31 @@ public class French extends javax.swing.JFrame {
         //store fullscreen button text/image
         
         //figure out some way for a fullscreen mode.  just resizing, or actual new GUI?
-    
+        public void initComponents(){
 
    
-        logo = new javax.swing.JLabel();
-        jScrollPane1 = new javax.swing.JScrollPane();
-        textarea = new javax.swing.JTextArea();
-        directions = new javax.swing.JLabel();
-        e1 = new javax.swing.JButton();
-        e2 = new javax.swing.JButton();
-        e3 = new javax.swing.JButton();
-        cd = new javax.swing.JButton();
-        a1 = new javax.swing.JButton();
-        a2 = new javax.swing.JButton();
-        ic = new javax.swing.JButton();
-        oc = new javax.swing.JButton();
-        u1 = new javax.swing.JButton();
-        u2 = new javax.swing.JButton();
-        oe = new javax.swing.JButton();
-        at = new javax.swing.JButton();
-        et = new javax.swing.JButton();
-        it = new javax.swing.JButton();
-        ut = new javax.swing.JButton();
-        lq = new javax.swing.JButton();
-        rq = new javax.swing.JButton();
-        exportbutt = new javax.swing.JButton();
+        javax.swing.JLabel logo = new javax.swing.JLabel();
+        javax.swing.JScrollPane jScrollPane1 = new javax.swing.JScrollPane();
+        javax.swing.JTextArea textarea = new javax.swing.JTextArea();
+        javax.swing.JLabel directions = new javax.swing.JLabel();
+        javax.swing.JButton e1 = new javax.swing.JButton();
+        javax.swing.JButton e2 = new javax.swing.JButton();
+        javax.swing.JButton e3 = new javax.swing.JButton();
+        javax.swing.JButton cd = new javax.swing.JButton();
+        javax.swing.JButton a1 = new javax.swing.JButton();
+        javax.swing.JButton a2 = new javax.swing.JButton();
+        javax.swing.JButton ic = new javax.swing.JButton();
+        javax.swing.JButton oc = new javax.swing.JButton();
+        javax.swing.JButton u1 = new javax.swing.JButton();
+        javax.swing.JButton u2 = new javax.swing.JButton();
+        javax.swing.JButton oe = new javax.swing.JButton();
+        javax.swing.JButton at = new javax.swing.JButton();
+        javax.swing.JButton et = new javax.swing.JButton();
+        javax.swing.JButton it = new javax.swing.JButton();
+        javax.swing.JButton ut = new javax.swing.JButton();
+        javax.swing.JButton lq = new javax.swing.JButton();
+        javax.swing.JButton rq = new javax.swing.JButton();
+        javax.swing.JButton exportbutt = new javax.swing.JButton();
         //add fullscreen button
         
         //thinking this is the set up for the text box
@@ -443,78 +466,13 @@ public class French extends javax.swing.JFrame {
       x = 18;
       textarea.insert("\u00bb", getPos());
     }//GEN-LAST:event_rqActionPerformed
-
-    public void exportbuttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exportbuttActionPerformed
-      
-      //previous ways trying to export.  don't touch this, it finally works...
-      //can there be a direct print function? as in, to a printer?
-      
-//      String doc = textarea.getText();
-//      JFileChooser fc = new JFileChooser();
-//      fc.setDialogTitle("Sauvegarder");
-//      fc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-//      fc.setFileFilter(new FileNameExtensionFilter("Text Files", "txt"));
-//      int userSelection = fc.showSaveDialog(textarea);
-//      if (userSelection == JFileChooser.APPROVE_OPTION){
-//        File filetosave = fc.getSelectedFile();
-//        System.out.println("Sauvegarder: " + filetosave.getAbsolutePath());
-      
-      JFileChooser saver = new JFileChooser();  
-        saver.setFileFilter(new FileNameExtensionFilter("Text Files", "txt"));  
-        int returnVal = saver.showSaveDialog(textarea);  
-        File file = saver.getSelectedFile();  
-        BufferedWriter writer = null;  
-        if (returnVal == JFileChooser.APPROVE_OPTION)  
-        {  
-          try {
-            writer = new BufferedWriter( new FileWriter( file + ".txt"));  
-            
-            writer.write(textarea.getText());  
-            writer.close( );  
-          }
-          catch (IOException e)  {
-          }
-            
-        }  
+    
     }
-   
-//GEN-LAST:event_exportbuttActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
-    
-    
-   //HERE
-    
-    
     // Variables declaration - do not modify//GEN-BEGIN:variables
     
     //oh yeah, netbeans put the instance fields at the end.  weird >.>
     
     
-    public javax.swing.JButton a1;
-    public javax.swing.JButton a2;
-    public javax.swing.JButton at;
-    public javax.swing.JButton cd;
-    public javax.swing.JLabel directions;
-    public javax.swing.JButton e1;
-    public javax.swing.JButton e2;
-    public javax.swing.JButton e3;
-    public javax.swing.JButton et;
-    public javax.swing.JButton exportbutt;
-    public javax.swing.JButton ic;
-    public javax.swing.JButton it;
-    public javax.swing.JScrollPane jScrollPane1;
-    public javax.swing.JLabel logo;
-    public javax.swing.JButton lq;
-    public javax.swing.JButton oc;
-    public javax.swing.JButton oe;
-    public javax.swing.JButton rq;
-    public javax.swing.JTextArea textarea;
-    public javax.swing.JButton u1;
-    public javax.swing.JButton u2;
-    public javax.swing.JButton ut;
+    
     // End of variables declaration//GEN-END:variables
-}
 

@@ -65,8 +65,16 @@ public class ZYVA extends javax.swing.JFrame {
         
         
         // public string printButtonsPressed() {
+                 //System.out.println(getPressCode());
         //      
         
+        
+        //somewhere in here goes the global undo....
+        
+        
+        //somewhere in here goes right-click menu for cut/copy/paste
+        
+        //somewhere in here goes switch to fullscreen mode
         
 
     public void exportbuttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exportbuttActionPerformed

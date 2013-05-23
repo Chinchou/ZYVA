@@ -1,0 +1,63 @@
+import javax.swing.UIManager;
+import java.lang.Exception.*;
+import javax.swing.UnsupportedLookAndFeelException;
+import javax.swing.JTextArea;
+import javax.swing.JComponent;
+//import java.io.FileOutputStream;
+import java.io.*;
+import java.util.Scanner;
+import javax.swing.SwingUtilities;
+import javax.swing.filechooser.*;
+import javax.swing.JFileChooser;
+import javax.swing.JFileChooser;
+import java.io.*;
+import java.util.HashSet;
+import java.awt.Color;
+
+
+
+public class ZYVA_Utilities {
+  
+//  //TODO:
+//  -getPosition
+  public int getPos(){
+      return textarea.getCaretPosition(); //remember to rename as necessary
+    }
+  
+//  -getComponents (should take a param of language, probs a string)
+  public void getComponents(String language){
+   //get all of the component from the class of the language specified as a param
+   //check for examples of mass gets from GridWorld
+    
+   //and wait, if this is void, can it return, well, anything?  do I need to return?  probably.
+    
+  }
+  
+  
+//  -getChromeText
+  
+  public String getChromeText(String language){
+    return language.
+    
+    
+    
+    
+    
+  }
+//  -refocus?
+//  -toUpper (for accents!)
+//  -getCharacter (just because)
+//  -getLastUsage
+//  -getBackground
+//  -getLogo
+//  -getUndo
+//  -getLookFeel
+//  -getExportButtonText
+//  -getPressCode
+//  -getWindowSize (is there already something like this?  check.)
+//  
+  
+  
+  
+  
+}

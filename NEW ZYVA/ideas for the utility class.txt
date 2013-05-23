@@ -1,0 +1,4 @@
+make this something that is imported on every other class?
+
+other classes seem to construct an object, then the object is 
+used other places.  not sure I want to make a "language" object...

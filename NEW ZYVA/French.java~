@@ -18,15 +18,37 @@ import java.awt.Color;
 
 public class French extends javax.swing.JFrame {
     
-    public int x;  //tester for pressing buttons
+    public int x;  //tester for pressing buttons, change this to individual button codes eventually
+    
+
+
+
+// do I even need a constructor?  thinking no.
+    
+    //All of this could go in a void method of store.  Probs a good idea.
+    
+//store characters in ArrayLists here.
+    
+     
+        String titleFrench = new String("ZYVA--" + "\u00e9" + "crivez simplement en fran" + "\u00e7" + "ais !" + "    (Ver. 0.1.1)");
+        //storing title string...or something x)
+        
+        //zyva logo.  create logo for each lang, specifying the lang?  add this in to previously
+        //mentioned switcher method?
+        ImageIcon frenchIcon = new javax.swing.ImageIcon(getClass().getResource("Images/ZYVAlogoproto.png"))); // NOI18N
+        frenchIcon.setText("jLabel1");
+
+        //store whether or not last lang used (how to get this to be permanent between reboots
+        //of the program?)
+        
+        //store button press codes
+        
+        //store fullscreen button text/image
+        
+        //figure out some way for a fullscreen mode.  just resizing, or actual new GUI?
+    
 
    
-   
-    @SuppressWarnings("unchecked")
-    private void initComponents() {
-      //all of the buttons.  buttons labled according to diagram
-      //this is initiating all buttons.  could there be separate init components for each lang?
-      //or will the change have to take place first, ie, in a splash/options screen
         logo = new javax.swing.JLabel();
         jScrollPane1 = new javax.swing.JScrollPane();
         textarea = new javax.swing.JTextArea();
@@ -49,24 +71,8 @@ public class French extends javax.swing.JFrame {
         lq = new javax.swing.JButton();
         rq = new javax.swing.JButton();
         exportbutt = new javax.swing.JButton();
+        //add fullscreen button
         
-        
-        //setting background.  if any extra time, try putting an image here again (hard!)
-        Color c1 = new Color(75, 92, 112);
-        getContentPane().setBackground(c1);
-        
-        
-        //window chrome text--have one of these for each language, and a method that switches between them?
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setTitle("ZYVA--" + "\u00e9" + "crivez simplement en fran" + "\u00e7" + "ais !" + "    (Ver. 0.1.1)");
-        setIconImages(null);
-        setResizable(false);
-        
-        //zyva logo.  create logo for each lang, specifying the lang?  add this in to previously
-        //mentioned switcher method?
-        logo.setIcon(new javax.swing.ImageIcon(getClass().getResource("Images/ZYVAlogoproto.png"))); // NOI18N
-        logo.setText("jLabel1");
-
         //thinking this is the set up for the text box
         textarea.setColumns(20);
         textarea.setFont(new java.awt.Font("Arial", 0, 16)); // NOI18N
@@ -437,49 +443,6 @@ public class French extends javax.swing.JFrame {
       x = 18;
       textarea.insert("\u00bb", getPos());
     }//GEN-LAST:event_rqActionPerformed
-
-    public void exportbuttActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_exportbuttActionPerformed
-      
-      //previous ways trying to export.  don't touch this, it finally works...
-      //can there be a direct print function? as in, to a printer?
-      
-//      String doc = textarea.getText();
-//      JFileChooser fc = new JFileChooser();
-//      fc.setDialogTitle("Sauvegarder");
-//      fc.setFileSelectionMode(JFileChooser.FILES_AND_DIRECTORIES);
-//      fc.setFileFilter(new FileNameExtensionFilter("Text Files", "txt"));
-//      int userSelection = fc.showSaveDialog(textarea);
-//      if (userSelection == JFileChooser.APPROVE_OPTION){
-//        File filetosave = fc.getSelectedFile();
-//        System.out.println("Sauvegarder: " + filetosave.getAbsolutePath());
-      
-      JFileChooser saver = new JFileChooser();  
-        saver.setFileFilter(new FileNameExtensionFilter("Text Files", "txt"));  
-        int returnVal = saver.showSaveDialog(textarea);  
-        File file = saver.getSelectedFile();  
-        BufferedWriter writer = null;  
-        if (returnVal == JFileChooser.APPROVE_OPTION)  
-        {  
-          try {
-            writer = new BufferedWriter( new FileWriter( file + ".txt"));  
-            
-            writer.write(textarea.getText());  
-            writer.close( );  
-          }
-          catch (IOException e)  {
-          }
-            
-        }  
-    }
-   
-//GEN-LAST:event_exportbuttActionPerformed
-
-    /**
-     * @param args the command line arguments
-     */
-    
-    
-   //HERE
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables

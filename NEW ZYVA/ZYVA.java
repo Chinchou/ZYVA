@@ -24,29 +24,9 @@ import java.awt.Color;
 public class ZYVA extends javax.swing.JFrame {
     
     public ZYVA() {
-      try {
-        UIManager.setLookAndFeel("Metal");  //getLF()
-    } 
-    
-      
-      
-    //never did do any exception handling, but then again, never had any exceptions...
-    //consider handling exceptions? :3
-    catch (UnsupportedLookAndFeelException e) {
-       // handle exception
-    }
-    
-    catch (ClassNotFoundException e) {
-       // handle exception
-    }
-    catch (InstantiationException e) {
-       // handle exception
-    }
-    catch (IllegalAccessException e) {
-       // handle exception
-    }
+        UIManager.setLookAndFeel(getLookFeel());  //getLF()
         initComponents();
-    }
+    } 
     
     @SuppressWarnings("unchecked")
     private void initComponents() {
@@ -54,7 +34,7 @@ public class ZYVA extends javax.swing.JFrame {
       // getComponents(language);
     }
     
-    getContentPane().setBackground(); //getBackground();
+    getContentPane().setBackground(getBackground()); //getBackground();
         
         
         //window chrome text--have one of these for each language, and a method that switches between them?
