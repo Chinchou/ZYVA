@@ -53,5 +53,8 @@ public Color getBackground();
 public javax.swing.ImageIcon getLogo();
   //  -getLogo
   
+public getUndoButtonText();
+
+public getFullscreenButtonText();
   
 }
